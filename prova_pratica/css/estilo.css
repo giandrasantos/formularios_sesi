@@ -1,9 +1,66 @@
 body {
     background-image: url(../imagens/goku.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background-color: darkmagenta;
+    background-position: right top;
+    background-attachment: fixed;
+    background-color: indigo;
+    background-size: 30%;
     color: white;
 }
+
+h1 {
+    background-color: darkmagenta;
+    text-align: center;
+    font-family: cursive;
+    border: 5px dotted goldenrod;
+    color: goldenrod;
+    border-radius: 10px;
+}
+
+#dados input, select{
+    border-radius: 5px;
+    width: 1200px;
+    height: 25px;
+}
+
+#dados select {
+    width: 600px;
+}
+
+#dados fieldset {
+    border-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dados2 fieldset {
+    border-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dados2 select {
+    width: 600px;
+}
+#dados3 fieldset {
+    border-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dados4 fieldset {
+    border-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dados5 fieldset {
+    border-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkmagenta;
+}
+
+
 
 
