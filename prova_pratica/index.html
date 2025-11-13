@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h2>FORMULARIO SUPERAÇAIAJIN</h2>
+    <form id="dados">
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+            <label id="name">Nome:</label><br><br>
+            <input type="text" name="name"><br><br>
+            <label for="age">Idade:</label><br><br>
+            <input type="number" name="age"><br><br>
+            <label id="tel">Telefone:</label><br><br>
+            <input type="number" name="tel"><br><br>
+            <label id="address">Endereço:</label><br><br>
+            <input type="text" name="address"><br><br>
+            <label for="planet">Planeta de Origem:</label>
+            <select name="planet" id="planet">
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Outros</option>
+            </select>
+        </fieldset>
+    </form><br><br>
+
+    <form id="dados">
+        <fieldset>
+            <legend>Dados extras:</legend>
+            <label for="raca">Raça do Universo 7 preferida:</label>
+            <select name="raca" id="raca">
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>Namekuseijin</option>
+                <option>Androide</option>
+                <option>Outros</option>
+            </select><br><br>
+            <label for="work">Trabalho:</label>
+            <input type="radio" name="work" id="autonomo" value="autonomo">
+            <label for="autonomo">Autonomo</label>
+            <input type="radio" name="work" id="empregadoclt" value="empregadoclt">
+            <label for="empregadoclt">Empregado CLT</label>
+            <input type="radio" name="work" id="empresario" value="empresario">
+            <label for="empresario">Empresário</label>
+            <input type="radio" name="work" id="tipogoku" value="tipogoku">
+            <label for="tipogoku">Tipo Goku</label>
+        </fieldset>
+    </form><br><br>
+
+    <form id="dados">
+        <fieldset>
+            <legend>Seu açaí é perfeito de que jeito?</legend>
+            <input type="checkbox" name="puro" id="puro">
+            <label for="puro">Puro</label>
+            <input type="checkbox" name="banana" id="banana">
+            <label for="banana">Com Banana</label>
+            <input type="checkbox" name="morango" id="morango">
+            <label for="morango">Com Morango</label>
+            <input type="checkbox" name="granola" id="granola">
+            <label for="granola">Com Granola</label>
+            <input type="checkbox" name="gostoterra" id="gostoterra">
+            <label for="gostoterra">Tem gosto de Terra</label>
+        </fieldset>
+    </form><br><br>
+
+    <form id="dados">
+        <fieldset>
+            <legend>Qual o tamanho preferido?</legend>
+            <input type="radio" name="jeito" id="jeito">
+            <label for="jeito">500ml</label>
+            <input type="radio" name="jeito" id="jeito">
+            <label for="jeito">300ml</label>
+            <input type="radio" name="jeito" id="jeito">
+            <label for="jeito">100ml</label>
+            <input type="radio" name="jeito" id="jeito">
+            <label for="jeito">Casquinha</label>
+            <input type="radio" name="jeito" id="jeito">
+            <label for="jeito">Qual parte do gosto de terra você não entendeu?</label>
+        </fieldset>
+    </form><br><br>
+
+    <form id="dados">
+        <fieldset>
+            <label for="observation">Observações:</label><br>
+            <textarea name="observation" id="observation" cols="195" rows="8"></textarea><br><br>
+        </fieldset>
+    </form><br><br>
+    <button type="submit">ENVIAR</button>
+    <button type="submit">LIMPAR</button>
+</body>
+
+</html>
